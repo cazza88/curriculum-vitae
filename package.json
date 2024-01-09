@@ -9,20 +9,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sneas/cv-project.git"
-  },
   "keywords": [
     "cv",
     "resume"
   ],
-  "author": "Dmytro Snisarenko <dmytro@sneas.io>",
+  "author": "Andrea Cazzaniga <andreacazzaniga@outlook.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sneas/cv-project/issues"
-  },
-  "homepage": "https://github.com/sneas/cv-project#readme",
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
     "dayjs": "^1.11.4",
