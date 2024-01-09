@@ -1,5 +1,5 @@
 {
-  "name": "cv-template",
+  "name": "curriculum-vitae",
   "description": "The Curriculum Vitae Template",
   "scripts": {
     "build": "node src/build.js",

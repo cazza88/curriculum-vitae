@@ -1,13 +1,15 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Andrea Cazzaniga',
+  title: 'Software Developer',
+  birthDate: '20 June 1988',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+    'Residence': '<a href="https://www.google.com/maps/place/20833+Giussano+MB/@45.5469589,9.1851004,11z/data=!4m6!3m5!1s0x4786a2d614d1b137:0x799c73ae15aab9bd!8m2!3d45.7002381!4d9.2089664!16zL20vMGdqNjI1"><i class="fa fa-home fact-icon"></i>Giussano, IT</a>',
+    'LinkedIn': `<a href="https://www.linkedin.com/in/andrea-cazzaniga/">
+                  <i class="fa-brands fa-linkedin fact-icon"></i>andrea-cazzaniga
                 </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'GitHub': `<a href="https://github.com/cazza88"><i class="fa-brands fa-github fact-icon"></i>cazza88</a>`,
+    'Mobile': '<a href="tel:+393495240151"><i class="fa fa-phone fact-icon"></i>+39 3495240151</a>',
+    'Email': '<a href="mailto:andreacazzaniga@outlook.com"><i class="fa fa-envelope fact-icon"></i>andreacazzaniga@outlook.com</a>'
   },
   skills: [
     ['Comedy', 100],
@@ -25,11 +27,13 @@ module.exports = {
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
+      title: 'Infor Technical Consultant',
+      company: 'Atlantic Technologies Spa',
+      location: 'Milan, IT',
+      period: 'Apr 21 - Present',
       skills: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+      contents: `Prince Haml
+et is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
 `
     },
     {
@@ -39,30 +43,19 @@ Prince Hamlet is visited by his father's ghost and ordered to avenge his father'
       contents: `
 Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
 `
-    },
-    {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
     }
   ],
-  experience: [
+  educations: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
+      title: `Digital Communication Bachelor's Degree`,
+      period: '2007 – 2011',
+      company: 'Università degli Studi di Milano',
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
-`
+      title: `Qualified Industrial Technician specialization IT`,
+      period: '2007',
+      company: 'Istituto Magistri Cumacini, Mariano Comense',
     }
-  ]
+
+  ]    
 };
