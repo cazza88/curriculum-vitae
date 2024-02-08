@@ -149,7 +149,7 @@ INFORMATICA-TELEMATICA`,
       contents: `Sistema di assistenza clienti con applicazioni IOS e Andorid: <a href="https://severi.it/assistenza/">Severi AsApp</a>`
     },
     {
-      contents: `Applicazione Android con un archivio delle salite per bici più importanti europee: <a href="https://play.google.com/store/apps/details?id=com.bike.archiviosalite&hl=en&gl=US">Climb Archive</a>`
+      contents: `Applicazione Android con un archivio delle salite per bici più importanti europee: <a href="https://play.google.com/store/apps/details?id=com.bike.archiviosalite&hl=en&gl=US">Archivio Salite</a>`
     },
     {
       contents: `Altri sistemi gestionali personalizzati per piccole aziende`
@@ -183,7 +183,7 @@ INFORMATICA-TELEMATICA`,
       contents: `Camminate, sci, mtb e bici da strada. Appassionato di sport motoristici e motociclista.`
     },
     {
-      contents: `Possessore di animali: un gatto e un acquario`
+      contents: `Possessore di animali, un gatto e un acquario`
     }
   ],
   authorization:  `Autorizzo il trattamento dei miei dati personali ai sensi del GDPR e del Decreto Legislativo 30 giugno 2003, n. 196 “Codice in materia di protezione dei dati personali” ai fini di attività di Ricerca e Selezione del Personale e contatti lavorativi.`
