@@ -49,7 +49,7 @@ Incremento della developer experience come full stack developer e system adminis
 * DevOps e CI/CD con GitLab
 * System administrator di un cluster ubuntu server con Docker / Docker Swarm
 
-Participatzione progetti EU: bIoTope, Lincoln, Z-Fact0r and Z-BRE4K
+Partecipazione nei progetti EU: bIoTope, Lincoln, Z-Fact0r and Z-BRE4K
 `
     },
     {
@@ -101,7 +101,6 @@ Software developer per un'azienda biomedicale (Sorin Group):
       contents: `
 System administrator di un'infrastruttra di web hosting:
 
-
 * OS Linux (Debian, CentOS), Windows Server (2003, 2008, 2008R2) 
 * Network (firewall, switch, router)
 * Web server (Apache, IIS)
@@ -109,8 +108,7 @@ System administrator di un'infrastruttra di web hosting:
 * Hypervisor (Xen, VMware ESXi)
 * Email server (Exim)
 * Hosting/Housing/VPS server
-
-Help desk I, II livello e relativo problem solving.
+* Help desk
 `
     },
     {
@@ -149,7 +147,7 @@ INFORMATICA-TELEMATICA`,
       contents: `Sistema di assistenza clienti con applicazioni IOS e Andorid: <a href="https://severi.it/assistenza/">Severi AsApp</a>`
     },
     {
-      contents: `Applicazione Android con un archivio delle salite per bici più importanti europee: <a href="https://play.google.com/store/apps/details?id=com.bike.archiviosalite&hl=en&gl=US">Archivio Salite</a>`
+      contents: `Applicazione Android con un archivio delle salite per bici più importanti europee: <a href="https://play.google.com/store/apps/details?id=com.bike.archiviosalite&hl=it&gl=US">Archivio Salite</a>`
     },
     {
       contents: `Altri sistemi gestionali personalizzati per piccole aziende`
@@ -159,7 +157,7 @@ INFORMATICA-TELEMATICA`,
   skills: [
     {
       title: "Lingue:",
-      contents: ` Italiano (lingua madre), Ingles`
+      contents: ` Italiano (lingua madre), Inglese`
     },
     {
       title: "Patente di guida:",
@@ -167,12 +165,12 @@ INFORMATICA-TELEMATICA`,
     },
     {
       title: "Competenze:",
-      contents: ` curiosity, problem-solving, transparency, critical thinking, teamwork`
+      contents: ` curiosità, problem-solving, transparenza, pensiero critico, teamwork`
     },
     {
       title: "Competenze digitali:",
 
-      contents: ` Microsoft Windows and Linux OS, Micorost Office Suite, GitHub, GitLab`
+      contents: ` Microsoft Windows e Linux OS, Micorost Office Suite, GitHub, GitLab`
     },
     {
       title: "Linguaggi di programmazione:",

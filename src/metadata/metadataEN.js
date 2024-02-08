@@ -41,7 +41,7 @@ I'm also working as technical lead in some projects
       period: 'Jul 2018 - Apr 2021',
       skills: ['Java', 'Spring', 'NodeJS', 'VueJS', 'Cassandra', 'Docker', 'IoT', 'Linux'],
       contents: `
-Improved the developer experience as a full stack developer and system administrator of a propiertary IoT solution platform:
+Improved the developer experience as a full stack developer and system administrator of a propietary IoT solution platform:
 
 * Develop backend with Java / Spring / HIBERNATE
 * Develop frontend/mobile (PWA) with VueJS (Quasar Framework)
@@ -86,7 +86,7 @@ System administrator for several medium/big customers:
       period: 'Nov 2012 - Jun 2015',
       skills: ['C#', 'WPF', '.NET', 'Visual Studio', 'Microsoft'],
       contents: `
-Software developer for a biomedical costumer (Sorin Group):
+Software developer for a biomedical customer (Sorin Group):
 
 * Develop software for processing ATS (Autotransfusion System) machine's data with C# (.NET Framework 3.5, WPF, Visual Studio 2010)
 * Develop software for exchanging data between the software and the healthcare standard HL7 with C# (.NET Framework 3.5, WPF, Visual Studio 2013)
@@ -108,8 +108,7 @@ System administrator of a web hosting infrastructure:
 * Hypervisor (Xen, VMware ESXi)
 * Email server (Exim)
 * Hosting/Housing/VPS server
-
-Help desk I, II level and relative problem solving.
+* Help desk
 `
     },
     {
