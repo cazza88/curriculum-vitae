@@ -10,18 +10,23 @@ const username = require('git-username');
 const buildPdf = require('./utils/pdf.js');
 
 const srcDir = __dirname;
+const outputDir = __dirname + '/../dist';
 const outputDirEN = __dirname + '/../dist/en';
 const outputDirIT = __dirname + '/../dist/it';
 
 // Clear dist dir
+fs.emptyDirSync(outputDir);
 fs.emptyDirSync(outputDirEN);
 fs.emptyDirSync(outputDirIT);
+
+// Copy root pages
+fs.copySync(srcDir + '/pages', outputDir);
 
 // Copy assets
 fs.copySync(srcDir + '/assets', outputDirEN);
 fs.copySync(srcDir + '/assets', outputDirIT);
 
-// Build HTML
+// Build HTML EN
 handlebars.registerHelper('markdown', markdownHelper);
 const source = fs.readFileSync(srcDir + '/templates/index.html', 'utf-8');
 const template = handlebars.compile(source);
@@ -41,7 +46,7 @@ fs.writeFileSync(outputDirEN + '/index.html', htmlEN);
 // Build PDF
 buildPdf(`${outputDirEN}/index.html`, `${outputDirEN}/${pdfFileName}`);
 
-
+// Build HTML IT
 const htmlIT = template({
   ...templateDataIT,
   baseUrl: `https://${username()}.github.io/${repoName.sync()}/it`,
@@ -52,4 +57,5 @@ const htmlIT = template({
 
 fs.writeFileSync(outputDirIT + '/index.html', htmlIT);
 
+// Build PDF
 buildPdf(`${outputDirIT}/index.html`, `${outputDirIT}/${pdfFileName}`);
