@@ -17,16 +17,16 @@ module.exports = {
       company: 'Atlantic Technologies Spa',
       location: 'Milan, IT',
       period: 'Apr 2021 - Present',
-      skills: ['Infor', 'Java', 'TypeScript'],
+      skills: ['Infor', 'Java', 'TypeScript', 'Angualar', 'NodeJS', 'Docker'],
       contents: `
-Infor M3 technical consultant:
+Infor M3 technical consultant for big food / fashion company:
 
-* Developing frontend H5 Apps with Infor H5 SDK (Angular, Typescript) and H5 Scripts (Typescript)
-* Developing external interfaces with Java / NodeJS (microservices) / Docker
+* Develop frontend H5 Apps with Infor H5 SDK (Angular, TypeScript) and H5 Scripts (TypeScript)
+* Develop external interfaces with Java / NodeJS (microservices) / Docker
 * Process automation with Infor ION APIs (REST), MEC tools, ION dataflow / workflow
-* Developing custom report with OpenText StreamServe / OpenText ExStream / IDM
+* Develop custom report with OpenText StreamServe / OpenText ExStream / IDM
 
-Also technical lead in some projects
+I'm also working as technical lead in some projects
 `
     },
     {
@@ -38,9 +38,9 @@ Also technical lead in some projects
       contents: `
 Improved the developer experience as a full stack developer and system administrator of a propiertary IoT solution platform:
 
-* Developing backend with JAVA / Spring / HIBERNATE
-* Developing frontend/mobile (PWA) with VueJS (Quasar Framework)
-* Developing IoT side with NodeJS (microservices) / Apache Cassandra / RabbitMQ (MQTT, AMQP)
+* Develop backend with JAVA / Spring / HIBERNATE
+* Develop frontend/mobile (PWA) with VueJS (Quasar Framework)
+* Develop IoT side with NodeJS (microservices) / Apache Cassandra / RabbitMQ (MQTT, AMQP)
 * DevOps and CI/CD with GitLab
 * System administrator of ubuntu server cluster with Docker / Docker Swarm
 
@@ -58,13 +58,13 @@ Started as internal system administrator / developer:
 
 * Windows Server 2012 R2 as DC / ActiveDirectory / GPO / Network shares
 * External VPN
-* Developing frontend of Resource Management portal with ASP.
+* Develop frontend of Resource Management portal with ASP.
 
 Later Infor M3 technical consultant:
 
-* Developing ERP customization with Java (Infor MAK tool)
+* Develop ERP customization with Java (Infor MAK tool)
 * Process automation with Infor ION APIs (REST) and MEC tools
-* Developing custom report with OpenText StreamServe suite
+* Develop custom report with OpenText StreamServe suite
 
 System administrator for several medium/big customers:
 
@@ -84,8 +84,8 @@ System administrator for several medium/big customers:
       contents: `
 Software developer for a biomedical costumer (Sorin Group):
 
-* Developing software for processing ATS (Autotransfusion System) machine's data with C# (.NET Framework 3.5, WPF, Visual Studio 2010)
-* Developing software for exchanging data between the software and the healthcare standard HL7 with C# (.NET Framework 3.5, WPF, Visual Studio 2013)
+* Develop software for processing ATS (Autotransfusion System) machine's data with C# (.NET Framework 3.5, WPF, Visual Studio 2010)
+* Develop software for exchanging data between the software and the healthcare standard HL7 with C# (.NET Framework 3.5, WPF, Visual Studio 2013)
 `
     },
     {
