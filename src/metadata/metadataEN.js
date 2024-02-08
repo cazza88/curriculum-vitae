@@ -11,6 +11,11 @@ module.exports = {
     'Mobile': '<a href="tel:+393495240151"><i class="fa fa-phone fact-icon"></i>+39 3495240151</a>',
     'Email': '<a href="mailto:andreacazzaniga@outlook.com"><i class="fa fa-envelope fact-icon"></i>andreacazzaniga@outlook.com</a>'
   },
+  lastUpdate: 'Last update',
+  otherVersion: 'Italian version',
+  downloadPdf: 'Download PDF version',
+  upToDate: 'Up-to-date version of CV is available at',
+  professionalExp: 'Professional Experience',
   positions: [
     {
       title: 'Technical Consultant',
@@ -24,7 +29,7 @@ Infor M3 technical consultant for big food / fashion company:
 * Develop frontend H5 Apps with Infor H5 SDK (Angular, TypeScript) and H5 Scripts (TypeScript)
 * Develop external interfaces with Java / NodeJS (microservices) / Docker
 * Process automation with Infor ION APIs (REST), MEC tools, ION dataflow / workflow
-* Develop custom report with OpenText StreamServe / OpenText ExStream / IDM
+* Develop custom report with OpenText StreamServe / OpenText ExStream / Infor IDM
 
 I'm also working as technical lead in some projects
 `
@@ -38,7 +43,7 @@ I'm also working as technical lead in some projects
       contents: `
 Improved the developer experience as a full stack developer and system administrator of a propiertary IoT solution platform:
 
-* Develop backend with JAVA / Spring / HIBERNATE
+* Develop backend with Java / Spring / HIBERNATE
 * Develop frontend/mobile (PWA) with VueJS (Quasar Framework)
 * Develop IoT side with NodeJS (microservices) / Apache Cassandra / RabbitMQ (MQTT, AMQP)
 * DevOps and CI/CD with GitLab
@@ -56,8 +61,7 @@ Participation in EU projects: bIoTope, Lincoln, Z-Fact0r and Z-BRE4K
       contents: `
 Started as internal system administrator / developer:
 
-* Windows Server 2012 R2 as DC / ActiveDirectory / GPO / Network shares
-* External VPN
+* Windows Server 2012 R2 as DC / ActiveDirectory / GPO / Network shares, VPN access
 * Develop frontend of Resource Management portal with ASP.
 
 Later Infor M3 technical consultant:
@@ -97,7 +101,7 @@ Software developer for a biomedical costumer (Sorin Group):
       contents: `
 System administrator of a web hosting infrastructure:
 
-* OS Linux (Debian, CentOS) and Windows Server (2003, 2008, 2008R2) 
+* OS Linux (Debian, CentOS), Windows Server (2003, 2008, 2008R2) 
 * Network (firewall, switch, router)
 * Web server (Apache, IIS)
 * Database (SQL Server, MySQL)
@@ -109,7 +113,7 @@ Help desk I, II level and relative problem solving.
 `
     },
     {
-      title: 'Software Developsr',
+      title: 'Software Developer',
       company: 'Disi Srl',
       location: 'Cinisello Balsamo, IT',
       period: 'Oct 2010 - Nov 2010',
@@ -117,11 +121,12 @@ Help desk I, II level and relative problem solving.
       contents: `
 University apprenticeship and thesis: "PLUGIN PER INTEGRAZIONE 'MONITOR CARROZZIERI'" 
 
-* Developing software plugin with C# 
+* Develop software plugin with C# 
 * Plugin management with WinDev
 `
     }
   ],
+  education: 'Education',
   educations: [
     {
       title: `Digital Communication Bachelor's Degree`,
@@ -133,6 +138,50 @@ University apprenticeship and thesis: "PLUGIN PER INTEGRAZIONE 'MONITOR CARROZZI
       period: '2007',
       company: 'Istituto Magistri Cumacini, Mariano Comense',
     }
+  ],
+  certifications: 'Certifications',
+  additionalExp: 'Additional Experience',
+  experience: [
+    {
+      contents: `Customer assistance system with IOS and Andorid apps: <a href="https://severi.it/assistenza/">Severi AsApp</a>`
+    },
+    {
+      contents: `An Android app with an archive of the most important bike climbs in europe: <a href="https://play.google.com/store/apps/details?id=com.bike.archiviosalite&hl=en&gl=US">Climb Archive</a>`
+    },
+    {
+      contents: `Some other custom management software for small businesses`
+    }
+  ],
+  skillHobbies: 'Skills & Hobbies',
+  skills: [
+    {
+      title: "Languages:",
+      contents: ` Italian (mother tongue), English`
+    },
+    {
+      title: "Driving license:",
+      contents: ` A, B`
+    },
+    {
+      title: "Soft skills:",
+      contents: ` curiosity, problem-solving, transparency, critical thinking, teamwork`
+    },
+    {
+      title: "Digital skills:",
 
-  ]
+      contents: ` Microsoft Windows and Linux OS, Micorost Office Suite, GitHub, GitLab`
+    },
+    {
+      title: "Programming Languages:",
+
+      contents: ` Java, JavaScript, TypeScript, C#, PHP, SQL, HTML, CSS, XML, XSL, Xpath`
+    },
+    {
+      contents: `Hiking, skiing, mtb and road bike. Motorsports enthusiast and biker.`
+    },
+    {
+      contents: `Pet owner, a cat and a fish tank`
+    }
+  ],
+  authorization:  `In compliance with the GDPR and the Italian Legislative Decree no. 196 dated 30/06/2003, I hereby authorize you to use and process my personal details contained in this document`
 };
