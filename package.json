@@ -1,6 +1,6 @@
 {
   "name": "curriculum-vitae",
-  "description": "The Curriculum Vitae Template",
+  "description": "The Curriculum Vitae",
   "scripts": {
     "build": "node src/build.js",
     "watch": "chokidar '**/*' -i 'dist/**/*' -c 'npm run build'",
