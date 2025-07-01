@@ -18,7 +18,7 @@ module.exports = {
   professionalExp: 'Professional Experience',
   positions: [
     {
-      title: 'Technical Consultant',
+      title: 'Technical Senior Consultant',
       company: 'Atlantic Technologies Spa',
       location: 'Milan, IT',
       period: 'Apr 2021 - Present',
