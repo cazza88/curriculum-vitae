@@ -3,7 +3,7 @@ module.exports = {
   title: 'Software Developer',
   birthDate: '20 June 1988',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/20833+Giussano+MB/@45.5469589,9.1851004,11z/data=!4m6!3m5!1s0x4786a2d614d1b137:0x799c73ae15aab9bd!8m2!3d45.7002381!4d9.2089664!16zL20vMGdqNjI1"><i class="fa fa-home fact-icon"></i>Giussano, IT</a>',
+    'Residence': '<a href="https://www.google.com/maps/place/20833+Giussano+MB/@45.5469589,9.1851004,11z/data=!4m6!3m5!1s0x4786a2d614d1b137:0x799c73ae15aab9bd!8m2!3d45.7002381!4d9.2089664!16zL20vMGdqNjI1"><i class="fa fa-home fact-icon"></i>Giussano (MB), IT</a>',
     'LinkedIn': `<a href="https://www.linkedin.com/in/andrea-cazzaniga/">
                   <i class="fa-brands fa-linkedin fact-icon"></i>andrea-cazzaniga
                 </a>`,
@@ -11,6 +11,7 @@ module.exports = {
     'Mobile': '<a href="tel:+393495240151"><i class="fa fa-phone fact-icon"></i>+39 3495240151</a>',
     'Email': '<a href="mailto:andreacazzaniga@outlook.com"><i class="fa fa-envelope fact-icon"></i>andreacazzaniga@outlook.com</a>'
   },
+  profile: 'Developer with 10+ years of experience in software development, system integration, and technical consulting. Specialized in enterprise solutions and microservices architecture.',
   lastUpdate: 'Last update',
   otherVersion: 'Italian version',
   downloadPdf: 'Download PDF version',
